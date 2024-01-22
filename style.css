@@ -147,6 +147,12 @@ li:hover {
     color: white;
 }
 
+#btn2:hover{
+    transition: 0.3s;
+    cursor: pointer;
+    border: 1px solid #e54471;
+}
+
 .moving_text{
     /* border: solid 1px; */
     width: 79%;
@@ -217,13 +223,17 @@ marquee ul li:hover{
     height: 340px;
     /* padding: 4px; */
     /* border-radius: ; */
-    box-shadow: inset 0px 6px 0px 0px #ffffff;
+    
     margin-right: 25px;     
 }
 
 .card:hover{
-    box-shadow: inset 0px -7px 9px -5px #03ff22;
+    /* box-shadow: inset 0px -7px 9px -5px #03ff22; */
+    box-shadow: 0px 0px 0px red;
     transition: 0.5s;
+    box-shadow: 0px 0px 8px #000000;
+    transform: scale(1.1,1.1);  
+    border-color: #0fef5f;
 }
 .card-header{
     font-size: 23px;
@@ -267,5 +277,96 @@ marquee ul li:hover{
 }
 
 .special_info{
-    
+    background-color: black;
+    display: flex;
+    padding: 26px;
+    justify-content: space-evenly;
+    background-image: url('output-onlinepngtools.png');
+   /* margin-bottom: 12px; */
+}
+.institute_area{
+    border-right: 1px solid rgb(82, 82, 82);
+    padding: 0px 96px;  
+}
+
+.si_img{
+    width: 119px;
+}
+
+.numbers{
+    color: white;
+    font-weight: 600;
+    text-align: center;
+    font-size: 41px;
+}
+
+.ele_3{
+    color: white;
+    text-align: center;
+    font-size: 32px;
+}
+
+.student_area{
+    border: none;
+}
+.student_opinion{
+    border: solid 1px red;
+    display: flex;
+}
+
+.s1{
+    border: solid 1px green;
+    display: flex;
+    width: 538px;
+    text-align: justify;
+}
+
+.s1 img{
+    width: 162px;
+}
+
+.s1 div span{
+    text-align: end;
+    display: block;
+}
+
+footer{
+    background-color: #0d1b2a;
+    color: white;
+    text-align: center;
+}
+
+.flex-div{
+    display: flex;
+    JUSTIFY-CONTENT: space-evenly;
+}
+
+
+.footer-header{
+    font-size:26px;
+}
+
+.information div{
+    margin: 14px 0;
+}
+
+
+
+.d3{
+    text-align: left;
+}
+
+.footer_text:hover{
+    font-size: 19px;
+    cursor: pointer;
+    transition: 0.2s;
+
+    color: #0798ff;
+}
+
+.add:hover{
+    font-size: 16px;
+    cursor: text;
+    transition: none;
+    color: white;
 }
