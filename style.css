@@ -370,3 +370,31 @@ footer{
     transition: none;
     color: white;
 }
+
+.side{
+    /* border: solid 1px black; */
+    position: fixed;
+    top: 40%;
+    left: 0px;
+}
+
+.facebook{
+    background-color: #2d44b9;
+    border-top-right-radius: 9px;
+}
+
+.insta{
+    background-color: rgb(255, 0, 157);
+}
+
+.twitter{
+    background-color: #4e4e4e;
+}
+.side-items{
+    padding: 6px;
+}
+
+.linkedin{
+    background-color: #34d36c;
+    border-bottom-right-radius: 9px;
+}
