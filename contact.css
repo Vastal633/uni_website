@@ -220,6 +220,11 @@ footer {
     align-items: center;
 }
 
+.bottom{
+    width: 100%;
+    border: solid 1px #03ff22;
+}
+
 .co-ele img{
     margin-right: 4px;
 }
